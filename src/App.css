@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+}
+h1 {
+    text-align: center;
+    margin: 20px 100px;
+   }
+  body {
+    font-family: Arial, sans-serif;
+    background-color:palevioletred;
+    padding: 20px;
+  }
+  
+  #app {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: burlywood;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  #textInput, #stutus, #time {
+   width: 100%;
+   padding: 15px;
+  
+  }
+  
+  button {
+    background-color: #4CAF50;
+    border-style: solid;
+    border-radius: 5px;
+  height: 40px;
+  width: 70px;
+ margin-top: 20px;
+    
+  }
+  
+  h1 {
+    color: white;
+  }
+  
+  label {
+    color: black;
+    display: flex;
+    
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+  }
+  li {
+    margin-top: 50px;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+ 
+  
